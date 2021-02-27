@@ -38,13 +38,13 @@ conda env create -f netcent2.yml
 
 The codes regarding various analyses given in the main article.
 
-ME Evaluations Based on Defined Metrics 
+* ME Evaluations Based on Defined Metrics * 
 
 The main source code for the evaluationon ME Tests. As output, you get tables with all analysis results.
 
 * netcentric_me_evaluations_based_on_defined_metrics.py
 
-ME Evaluations Based on Corrections via MLA
+* ME Evaluations Based on Corrections via MLA *
 
 Scatterplots of percentage significance of mutual exclusivity runs vs mutation load
 association (MLA)
@@ -56,7 +56,7 @@ association (MLA) when only CGC genes that have > 1 neighbors are included
 
 * me_evaluations_based_on_corrections_via_MLA_neighbors.py
 
-ME Evaluations Based on Corrections via TSN
+* ME Evaluations Based on Corrections via TSN *
 
 Network-centric epistasis evaluation framework run on the tissue-specific network (TSN)
 
