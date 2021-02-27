@@ -31,6 +31,10 @@ conda env create -f netcent2.yml
 	E: intact_nodupl_edge_file: intact network edge file 
 	
 	F: intact_nodupl_index_file: intact network index file 
+	
+	G: gtex_tsn_fractions_intact_filtered: edges_gtex_intact_filtered_{tissue}
+	
+	H: gtex_tsn_fractions_intact_filtered_applied_threshold: thresholds 0.0 and 0.5 were applied
 
 
 
