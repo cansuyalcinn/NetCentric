@@ -45,8 +45,7 @@ The file is located at data/intact_nodupl_index_file.txt
 The mutation data includes pairwise mutual exclusivity p-values given for each method (discover, discover_strat, fishers, megsa, memo and wext).
 The files with the name of mutations_all_genes include all genes and intact_filtered include only ones in intact network. 
 
-The file is located at data/{method}_mutation_filtered_ep_data/{cancer type}_{method}_result_mutations_all_genes_{threshold}
-
+The file is located at data/{method}_mutation_filtered_ep_data
 ```bash
 	gene1	gene2	pvalue	qvalue
 0	A2M	A2ML1	0.6584654889330113	0.9926886078786901
@@ -54,7 +53,7 @@ The file is located at data/{method}_mutation_filtered_ep_data/{cancer type}_{me
 2	A2M	ABCA10	0.8971732886956303	0.9926886078786901
 ...
 ``` 
-The file is located at data/{method}_mutation_filtered_ep_data/{cancer type}_{method}_pairs_intact_filtered_subset{threshold}
+The file is located at data/{method}_mutation_filtered_ep_data
 
 ```bash
 	gene1	gene2	pvalue	oddsratio
@@ -77,23 +76,33 @@ TCGA-4T-AA8H-01A	0	0	0
 ...
 ``` 
 
+MLA: The file contains the corresponding MLA.
+
+The file is located at data/MLA_ep_mutation_filtered_all_genes
+
+```bash
+A1BG	4.261253658699028
+A1CF	5.095042391780406
+A2M	5.539871662596874
+...
+``` 
+
 2. COSMIC File (Driver genes)
 
 The file is located at data/Census_allFri_Apr_26_12_49_57_2019.tsv
 
+3. TSN
 
+The file contains gtex edges for the corresponding tissue type with a given threshold (0.0 and 0.5)
 
+The file is located at data/gtex_tsn_fractions_intact_filtered_applied_threshold
 
-
-#### data: Includes all the input data such as mutual_exclusivity files, MLA files, PPI files etc. "{method}_mutation_filtered_ep_data" folder contains the MEX files.
-
-	A. binary_matrices_all_genes_ep_mutation_filtered: includes binary matrices for mutation data.
-
-	C. MLA_ep_mutation_filtered_all_genes: Corresponding MLA.
-	
-	G: gtex_tsn_fractions_intact_filtered_applied_threshold: gtex edges threshold 0.0 and 0.5 were applied
-
-
+```bash
+MDM2	TP53	1.0
+PAK1	RAC1	1.0
+FADD	CASP8	0.9987163029525032
+...
+``` 
 
 ## Runs
 
