@@ -64,20 +64,32 @@ The file is located at data/{method}_mutation_filtered_ep_data/{cancer type}_{me
 ...
 ``` 
 
+Binary genes matrix:
+The file contains binary martices for mutation data. 
+
+The file is located at data/binary_matrices_all_genes_ep_mutation_filtered
+
+```bash
+	patients	A1BG	A1CF	A2M ...
+TCGA-3L-AA1B-01A	0	0	0
+TCGA-4N-A93T-01A	0	0	0
+TCGA-4T-AA8H-01A	0	0	0
+...
+``` 
+
+2. COSMIC File (Driver genes)
+
+The file is located at data/Census_allFri_Apr_26_12_49_57_2019.tsv
+
+
+
+
 
 #### data: Includes all the input data such as mutual_exclusivity files, MLA files, PPI files etc. "{method}_mutation_filtered_ep_data" folder contains the MEX files.
 
 	A. binary_matrices_all_genes_ep_mutation_filtered: includes binary matrices for mutation data.
 
-	B. {method}_mutation_filtered_ep_data: inlcudes pairwise mutual exclusivity p-values.
-
 	C. MLA_ep_mutation_filtered_all_genes: Corresponding MLA.
-
-	D: Census_allFri_Apr_26_12_49_57_2019.tsv: COSMIC file (Known driver genes)
-	
-	E: intact_nodupl_edge_file: intact network edge file 
-	
-	F: intact_nodupl_index_file: intact network index file 
 	
 	G: gtex_tsn_fractions_intact_filtered_applied_threshold: gtex edges threshold 0.0 and 0.5 were applied
 
