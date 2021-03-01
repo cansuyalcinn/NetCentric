@@ -18,6 +18,26 @@ conda env create -f netcent2.yml
 
 ## Input
 
+#### data
+1. The PPI network edge and index files. The files are located in data/intact_nodupl_edge_file.txt and data/intact_nodupl_index_file.txt 
+
+```bash
+0	""CHEBI
+1	100147744
+2	1B
+3	1EFV
+...
+``` 
+
+```bash
+7589	13441	0.99
+9123	10446	0.98
+4248	1740	0.98
+3776	5279	0.98
+...
+``` 
+
+
 #### data: Includes all the input data such as mutual_exclusivity files, MLA files, PPI files etc. "{method}_mutation_filtered_ep_data" folder contains the MEX files.
 
 	A. binary_matrices_all_genes_ep_mutation_filtered: includes binary matrices for mutation data.
