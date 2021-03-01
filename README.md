@@ -138,3 +138,14 @@ Network-centric epistasis evaluation framework run on the tissue-specific networ
 ROC curves for comparing the mutual exclusivities of tissue-specific and non-tissue specific CGC-CGC gene pairs and non-CGC-non-CGC gene pairs on
 
 * me_on_tsn_ntsn_roc_curve.py
+
+## Output
+
+The outputs;
+
+* The evaluation results for the IntAct network and TSN network,
+* Scatterplots of percentage significance of mutual exclusivity runs vs mutation load association (MLA),
+* ROC curves for comparing the mutual exclusivities of tissue-specific and non-tissue-specific CGC-CGC gene pairs and non-CGC-non-CGC gene pairs
+
+will be stored in results_main file. 
+
