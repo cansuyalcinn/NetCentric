@@ -18,7 +18,6 @@ conda env create -f netcent2.yml
 
 ## Input
 
-#### data
 1. The PPI network edge and index files. 
 
 The file is located at data/intact_nodupl_edge_file.txt
@@ -63,8 +62,7 @@ The file is located at data/{method}_mutation_filtered_ep_data/{cancerType}_{met
 ...
 ``` 
 
-Binary genes matrix:
-The file contains binary martices for mutation data. 
+Binary genes matrix: The file contains binary martices for mutation data. 
 
 The file is located at data/binary_matrices_all_genes_ep_mutation_filtered
 
