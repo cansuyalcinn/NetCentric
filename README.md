@@ -20,7 +20,7 @@ conda env create -f netcent2.yml
 
 1. The PPI network edge and index files. 
 
-The file is located at data/intact_nodupl_edge_file.txt
+The file is located at data/intact_nodupl_index_file.txt 
 
 ```bash
 0	""CHEBI
@@ -29,7 +29,7 @@ The file is located at data/intact_nodupl_edge_file.txt
 3	1EFV
 ...
 ``` 
-The file is located at data/intact_nodupl_index_file.txt 
+The file is located at data/intact_nodupl_edge_file.txt
 
 ```bash
 7589	13441	0.99
