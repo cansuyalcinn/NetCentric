@@ -108,7 +108,7 @@ The codes regarding various analyses given in the main article.
 
 **ME Evaluations Based on Defined Metrics** 
 
-The main source code for the evaluationon ME Tests. As output, you get tables with all analysis results.
+The main source code for the evaluation ME Tests. As output, you get tables with all analysis results.
 
 To generate the algorithm for the given input, the following script should be run
 
@@ -119,13 +119,11 @@ python evaluations_on_metrics.py
 
 **ME Evaluations Based on Corrections via MLA**
 
-Scatterplots of percentage significance of mutual exclusivity runs vs mutation load
-association (MLA)
+Scatterplots of percentage significance of mutual exclusivity runs vs mutation load association (MLA)
 
 * evaluations_via_mla.py
 
-Scatterplots of percentage significance of mutual exclusivity runs vs mutation load
-association (MLA) when only CGC genes that have > 1 neighbors are included
+Scatterplots of percentage significance of mutual exclusivity runs vs mutation load association (MLA) when only CGC genes that have > 1 neighbors are included
 
 * evaluations_via_mla_neighbors.py
 
