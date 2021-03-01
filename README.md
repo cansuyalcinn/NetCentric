@@ -10,7 +10,7 @@ Installing the dependencies
 ```bash
 conda install --file requirements.txt
 ```
-Installing the conda env
+Installing the anaconda environment
 
 ```bash
 conda env create -f netcent2.yml
