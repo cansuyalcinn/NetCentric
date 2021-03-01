@@ -45,7 +45,7 @@ The file is located at data/intact_nodupl_index_file.txt
 The mutation data includes pairwise mutual exclusivity p-values given for each method (discover, discover_strat, fishers, megsa, memo and wext).
 The files with the name of mutations_all_genes include all genes and intact_filtered include only ones in intact network. 
 
-The file is located at data/{method}_mutation_filtered_ep_data
+The file is located at data/{method}_mutation_filtered_ep_data/{cancerType}_{method}_result_mutations_all_genes_{threshold}
 ```bash
 	gene1	gene2	pvalue	qvalue
 0	A2M	A2ML1	0.6584654889330113	0.9926886078786901
@@ -53,7 +53,7 @@ The file is located at data/{method}_mutation_filtered_ep_data
 2	A2M	ABCA10	0.8971732886956303	0.9926886078786901
 ...
 ``` 
-The file is located at data/{method}_mutation_filtered_ep_data
+The file is located at data/{method}_mutation_filtered_ep_data/{cancerType}_{method}_pairs_intact_filtered_subset{threshold}
 
 ```bash
 	gene1	gene2	pvalue	oddsratio
