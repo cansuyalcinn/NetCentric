@@ -39,7 +39,7 @@ The file is located at data/intact_nodupl_index_file.txt
 ...
 ``` 
 
-2. Mutation data
+2. Mutual Exclusivity Data
 
 The mutation data includes pairwise mutual exclusivity p-values given for each method (discover, discover_strat, fishers, megsa, memo and wext).
 The files with the name of mutations_all_genes include all genes and intact_filtered include only ones in intact network. 
