@@ -117,7 +117,6 @@ To generate the algorithm for the given input, the following script should be ru
 ```bash
 cd src
 python evaluations_on_metrics.py
-...
 ``` 
 
 **ME Evaluations Based on Corrections via MLA**
