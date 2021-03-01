@@ -85,11 +85,11 @@ A2M	5.539871662596874
 ...
 ``` 
 
-2. COSMIC File (Driver genes)
+3. COSMIC File (Driver genes)
 
 The file is located at data/Census_allFri_Apr_26_12_49_57_2019.tsv
 
-3. TSN
+4. TSN
 
 The file contains gtex edges for the corresponding tissue type with a given threshold (0.0 and 0.5)
 
