@@ -112,26 +112,26 @@ The codes regarding various analyses given in the main article.
 
 The main source code for the evaluationon ME Tests. As output, you get tables with all analysis results.
 
-* netcentric_me_evaluations_based_on_defined_metrics.py
+* evaluations_on_metrics.py
 
 **ME Evaluations Based on Corrections via MLA**
 
 Scatterplots of percentage significance of mutual exclusivity runs vs mutation load
 association (MLA)
 
-* me_evaluations_based_on_corrections_via_MLA.py
+* evaluations_via_mla.py
 
 Scatterplots of percentage significance of mutual exclusivity runs vs mutation load
 association (MLA) when only CGC genes that have > 1 neighbors are included
 
-* me_evaluations_based_on_corrections_via_MLA_neighbors.py
+* evaluations_via_mla_neighbors.py
 
 **ME Evaluations Based on Corrections via TSN**
 
 Network-centric epistasis evaluation framework run on the tissue-specific network (TSN)
 
-* me_evaluations_based_on_corrections_via_TSN.py
+* evaluations_via_tsn.py
 
 ROC curves for comparing the mutual exclusivities of tissue-specific and non-tissue specific CGC-CGC gene pairs and non-CGC-non-CGC gene pairs on
 
-* me_on_tsn_and_ntsn_roc_curve.py
+* me_on_tsn_ntsn_roc_curve.py
