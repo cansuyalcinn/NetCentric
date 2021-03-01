@@ -19,7 +19,9 @@ conda env create -f netcent2.yml
 ## Input
 
 #### data
-1. The PPI network edge and index files. The files are located in data/intact_nodupl_edge_file.txt and data/intact_nodupl_index_file.txt 
+1. The PPI network edge and index files. 
+
+The file is located at data/intact_nodupl_edge_file.txt
 
 ```bash
 0	""CHEBI
@@ -28,12 +30,37 @@ conda env create -f netcent2.yml
 3	1EFV
 ...
 ``` 
+The file is located at data/intact_nodupl_index_file.txt 
 
 ```bash
 7589	13441	0.99
 9123	10446	0.98
 4248	1740	0.98
 3776	5279	0.98
+...
+``` 
+
+2. Mutation data
+
+The mutation data includes pairwise mutual exclusivity p-values given for each method (discover, discover_strat, fishers, megsa, memo and wext).
+The files with the name of mutations_all_genes include all genes and intact_filtered include only ones in intact network. 
+
+The file is located at data/{method}_mutation_filtered_ep_data/{cancer type}_{method}_result_mutations_all_genes_{threshold}
+
+```bash
+	gene1	gene2	pvalue	qvalue
+0	A2M	A2ML1	0.6584654889330113	0.9926886078786901
+1	A2M	ABCA1	0.5332913581418495	0.9926886078786901
+2	A2M	ABCA10	0.8971732886956303	0.9926886078786901
+...
+``` 
+The file is located at data/{method}_mutation_filtered_ep_data/{cancer type}_{method}_pairs_intact_filtered_subset{threshold}
+
+```bash
+	gene1	gene2	pvalue	oddsratio
+0	TCF7L2	CTNNB1	0.9015805073650888	1.6786858974358974
+1	SMAD4	SMAD3	0.839665475908354	1.4567901234567902
+2	EP300	TP53	0.0742406168447767	0.5221052631578947
 ...
 ``` 
 
