@@ -112,7 +112,13 @@ The codes regarding various analyses given in the main article.
 
 The main source code for the evaluationon ME Tests. As output, you get tables with all analysis results.
 
-* evaluations_on_metrics.py
+To generate the algorithm for the given input, the following script should be run
+
+```bash
+cd src
+python evaluations_on_metrics.py
+...
+``` 
 
 **ME Evaluations Based on Corrections via MLA**
 
