@@ -7,7 +7,7 @@ This is the original repository for the Network-centric Framework for the Evalua
 ### Prerequisites
 Pyhton: 3.8-3.9
 
-### Installing the dependencies
+### Getting Started
 
 Using Github clone
 
@@ -118,7 +118,7 @@ FADD	CASP8	0.9987163029525032
 
 The codes regarding various analyses given in the main article.
 
-**ME Evaluations Based on Defined Metrics** 
+### **ME Evaluations Based on Defined Metrics** 
 
 The main source code for the evaluation ME Tests. As output, you get tables with all analysis results in NetCentric/results_main/evaluation_results
 To generate the algorithm for the given input, the following script should be run
@@ -128,7 +128,7 @@ cd src
 python evaluations_on_metrics.py
 ``` 
 
-**ME Evaluations Based on Corrections via MLA**
+### **ME Evaluations Based on Corrections via MLA**
 
 Scatterplots of percentage significance of mutual exclusivity runs vs mutation load association (MLA)
 As output, you get results in NetCentric/results_main/evaluation_results/percent_sig_figures
@@ -146,9 +146,9 @@ cd src
 python evaluations_via_mla_neighbors.py
 ```
 
-**ME Evaluations Based on Corrections via TSN**
+### **ME Evaluations Based on Corrections via TSN**
 
-Network-centric epistasis evaluation framework run on the tissue-specific network (TSN)
+Network-centric epistasis evaluation framework run on the tissue-specific network (TSN). As output, you get results in NetCentric/results_main/evaluation_results/intact
 
 ```bash
 cd src
