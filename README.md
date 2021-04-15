@@ -138,19 +138,30 @@ cd src
 python evaluations_via_mla.py
 ```
 
-Scatterplots of percentage significance of mutual exclusivity runs vs mutation load association (MLA) when only CGC genes that have > 1 neighbors are included
+Scatterplots of percentage significance of mutual exclusivity runs vs mutation load association (MLA) when only CGC genes that have > 1 neighbors are included.
+As output, you get results in NetCentric/results_main/evaluation_results/percent_sig_figures/perc_sig_figures_for_multiple_neighbors
 
-* evaluations_via_mla_neighbors.py
+```bash
+cd src
+python evaluations_via_mla_neighbors.py
+```
 
 **ME Evaluations Based on Corrections via TSN**
 
 Network-centric epistasis evaluation framework run on the tissue-specific network (TSN)
 
-* evaluations_via_tsn.py
+```bash
+cd src
+python evaluations_via_tsn.py
+```
 
 ROC curves for comparing the mutual exclusivities of tissue-specific and non-tissue specific CGC-CGC gene pairs and non-CGC-non-CGC gene pairs on
 
-* me_on_tsn_ntsn_roc_curve.py
+```bash
+cd src
+python me_on_tsn_ntsn_roc_curve.py
+
+```
 
 ## Output
 
