@@ -3,18 +3,27 @@
 This is the original repository for the Network-centric Framework for the Evaluation of Mutual Exclusivity Tests project codes. The project involves the evaluation of mutual exclusivity methods: Discover, Discover_strat, Fisher's Exact Test, MEGSA, MEMO, and WExT. The results from these methods include pairwise mutual exclusivity p-values. Based on them, we apply our network-centric epistatic evaluation.
 
 
-## Installation
+## Getting Started
+### Prerequisites
+Pyhton: 3.8-3.9
 
-Installing the dependencies
+### Installing the dependencies
 
 ```bash
-conda install --file requirements.txt
+git clone https://github.com/abu-compbio/NetCentric
+cd NetCentric
+pip install -r requirements.txt
 ```
-Installing the anaconda environment
+You can also run this project locally by following these steps:
+1. Download the repo
+2. Open cmd/terminal and cd into the project
+3. Execute python -m pip install -r requirements.txt
+
+Some of the datasets are given in the .zip file format. In order to unzip, you should run script_unzip_data.py located under the NetCentric.
 
 ```bash
-conda env create -f netcent2.yml
-``` 
+python script_unzip_data.py
+```
 
 ## Input
 
