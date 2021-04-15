@@ -9,6 +9,8 @@ Pyhton: 3.8-3.9
 
 ### Installing the dependencies
 
+Using Github clone
+
 ```bash
 git clone https://github.com/abu-compbio/NetCentric
 cd NetCentric
