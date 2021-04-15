@@ -155,7 +155,8 @@ cd src
 python evaluations_via_tsn.py
 ```
 
-ROC curves for comparing the mutual exclusivities of tissue-specific and non-tissue specific CGC-CGC gene pairs and non-CGC-non-CGC gene pairs on
+ROC curves for comparing the mutual exclusivities of tissue-specific and non-tissue specific CGC-CGC gene pairs and non-CGC-non-CGC gene pairs on.
+As output, you get results in NetCentric/results_main/figure_tsn_AUROC
 
 ```bash
 cd src
