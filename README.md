@@ -172,5 +172,5 @@ The outputs;
 * Scatterplots of percentage significance of mutual exclusivity runs vs mutation load association (MLA),
 * ROC curves for comparing the mutual exclusivities of tissue-specific and non-tissue-specific CGC-CGC gene pairs and non-CGC-non-CGC gene pairs
 
-will be stored in results_main file. 
+will be stored in the results_main file. 
 
