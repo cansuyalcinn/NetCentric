@@ -18,8 +18,9 @@ pip install -r requirements.txt
 ```
 You can also run this project locally by following these steps:
 1. Download the repo
-2. Open cmd/terminal and cd into the project
-3. Execute python -m pip install -r requirements.txt
+2. Unzip NetCentric-main
+3. Open cmd/terminal and cd into the project
+4. Execute python -m pip install -r requirements.txt
 
 Some of the datasets are given in the .zip file format. In order to unzip, you should run script_unzip_data.py located under the NetCentric.
 
