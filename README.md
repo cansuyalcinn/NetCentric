@@ -12,7 +12,7 @@ Pyhton: 3.8-3.9
 Using Github clone
 
 ```bash
-git clone https://github.com/abu-compbio/NetCentric
+git clone  https://github.com/abu-compbio/netcentric
 cd NetCentric
 pip install -r requirements.txt
 ```
